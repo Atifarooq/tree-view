@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The Tree View support the following features:
 
-N-level nesting
-Selection of single or multiple nodes
-Arbitrary types of content in a TreeNode
+- N-level nesting
+- Selection of single or multiple nodes
+- Arbitrary types of content in a TreeNode
 
 ## Available Scripts
 
