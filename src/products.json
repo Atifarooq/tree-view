@@ -1,0 +1,161 @@
+{
+    "categories": [
+        {
+            "id": "8b930c65-5870-4d71-b318-db3522631ccc",
+            "title": "Phone",
+            "type": "category",
+            "children": [
+                {
+                    "id": "ef7353d9-8e6c-4ca5-b5e4-dd15d1283e5d",
+                    "title": "Apple",
+                    "type": "brand",
+                    "children": [
+                        {
+                            "id": "79ef3aec-00ad-4db8-a25e-de7833579d47",
+                            "title": "iPhone",
+                            "description": "200+ devices",
+                            "type": "model",
+                            "children": [
+                                {
+                                    "id": "5752db73-174c-4d2b-b8fd-555747b3f735",
+                                    "title": "128GB",
+                                    "description": "200+ devices",
+                                    "type": "variant"
+                                }, 
+                                {
+                                    "id": "44c96238-2294-4601-82de-59829b7ac62a",
+                                    "title": "256GB",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "236830da-2a66-4928-9b9f-dfb60b8e9bd1",
+                    "title": "Samsung",
+                    "type": "brand",                    
+                    "children": [
+                        {
+                            "id": "32059195-6129-4cd6-9f99-63337c995cc5",
+                            "title": "Galaxy",
+                            "description": "200+ devices",
+                            "type": "brand",                            
+                            "children": [
+                                {
+                                    "id": "cec14b75-d0bc-46fa-a3a1-f1e67a4a3978",
+                                    "title": "S3",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                },
+                                {
+                                    "id": "04ad9fd6-1f04-4574-94a2-2d63a1eef88f",
+                                    "title": "S9",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "id": "1dd2b6ae-5597-4871-95cd-7bc7e636e4fe",
+            "title": "Computers",
+            "type": "category",            
+            "children": [
+                {
+                    "id": "547c4480-94a8-4ebd-a7ce-427a8b16e59d",
+                    "title": "Apple",
+                    "type": "brand",                    
+                    "children": [
+                        {
+                            "id": "e183ac7e-9ed2-4976-b3c8-4056bd1ac9c0",
+                            "title": "Mac Book",
+                            "description": "200+ devices",
+                            "type": "model",                            
+                            "children": [
+                                {
+                                    "id": "15bb7df7-1e3c-4133-9062-4914fd75007d",
+                                    "title": "2019",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "id": "4e674a28-c1c6-4805-a71f-50c9dc19c54c",
+                    "title": "Microsoft",
+                    "type": "brand",                    
+                    "children": [
+                        {
+                            "id": "7c947d86-bbe5-4c13-aead-82dc93ca0166",
+                            "title": "Windows Machine",
+                            "description": "200+ devices",
+                            "type": "model",                            
+                            "children": [
+                                {
+                                    "id": "c0333c8c-1427-4911-8775-60a71679a43d",
+                                    "title": "2019",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "id": "8c7f445d-bfb9-4830-8a39-ac702da3c6be",
+            "title": "Televisions",
+            "type": "category",            
+            "children": [
+                {
+                    "id": "4e944e6c-fb41-45f2-9998-f65196764fa6",
+                    "title": "Sony",
+                    "type": "brand",                    
+                    "children": [
+                        {
+                            "id": "28f59fc3-2a57-47ca-8ce4-ce5c7e33e7fa",
+                            "title": "Thin Film",
+                            "description": "200+ devices",
+                            "type": "model",                            
+                            "children": [
+                                {
+                                    "id": "eee2589c-29ec-4adc-85f7-540d7b40e182",
+                                    "title": "TFT",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "id": "8dc1b4bd-fc97-42f6-a5c7-f673aea39a92",
+                    "title": "Panasonic",
+                    "type": "brand",                    
+                    "children": [
+                        {
+                            "id": "703a2ba8-ad01-4558-8b39-a15b267bf598",
+                            "title": "Ultra Sharp",
+                            "description": "200+ devices",
+                            "type": "model",                            
+                            "children": [
+                                {
+                                    "id": "2491651f-4f74-4c6b-a0e3-02722f7bd302",
+                                    "title": "FHD",
+                                    "description": "200+ devices",
+                                    "type": "variant"                                    
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

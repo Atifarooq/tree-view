@@ -1,0 +1,45 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.flex-equal {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0 30px;
+}
+
+.tag {
+  padding: 5px;
+  background-color: #f5f5f5;
+  margin: 2px;
+  width: fit-content;
+  border-radius: 2px;
+}
+
+.tree-wrap {
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.tree-wrap > ul{
+  direction: ltr;
+  border: none;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.heading > svg {
+  margin-right: 10px;
+}
