@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The Tree View support the following features:
+
+N-level nesting
+Selection of single or multiple nodes
+Arbitrary types of content in a TreeNode
+
 ## Available Scripts
 
 In the project directory, you can run:
