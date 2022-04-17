@@ -7,6 +7,7 @@ export const updateTree = <T extends object>(
         node: TreeNode<T>
     ): TreeNode<T>[] => {
 
+    map.set(node.key, node);
     let newNode: TreeNode<T> = {...node};
     
     // Walk up the tree and update each parent to refer to the new chilren.
