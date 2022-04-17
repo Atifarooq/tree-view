@@ -1,4 +1,4 @@
-import { FC, useContext, useState } from 'react';
+import { FC, useContext } from 'react';
 import { TreeNode, ILeafProp } from '../types';
 import { Branch } from './Branch';
 import { Context } from '../index'
