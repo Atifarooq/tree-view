@@ -23,6 +23,9 @@ pre+ pre {
   background-color: #c5c5c5;
 }
 
+svg {
+  margin-left: -8px;
+}
 
 a {
   display: flex;
