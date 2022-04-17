@@ -23,7 +23,6 @@ export const useTreeData = <T extends object>(options: TreeOptions<T>): TreeData
     };
     node.children = buildTree(getChildren(item), node.key, selected);
     itemsMap.set(node.key, node);
-    updateSelection(node);
     return node;
   }, []); 
 
