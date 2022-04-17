@@ -45,6 +45,14 @@ export const useTreeData = <T extends object>(options: TreeOptions<T>): TreeData
     }
   }, []);
 
+  const updateNode = useCallback((node: TreeNode<T>): TreeNode<T> => {
+    updateSelection(node);
+    node.children = node.children.map((child: TreeNode<T>) => updateNode({...child, selected: node.selected}));
+    itemsMap.set(node.key, node);
+
+    return node;
+  }, []);
+
   // We only want to compute this on initial render.
   const initialNodes = useMemo(() => buildTree(initialItems), []);
   const [items, setItems] = useState(initialNodes);
@@ -54,10 +62,9 @@ export const useTreeData = <T extends object>(options: TreeOptions<T>): TreeData
     itemsMap,
     selectedNodes,
     getItem: (key: Key): TreeNode<T> | undefined => itemsMap.get(key),
-    update: ({value, parentKey, selected, expand}: TreeNode<T>): void => {
-      // Select/Unselect child nodes and then only update Expand for this node.
-      const node: TreeNode<T> = {...buildNode(value, parentKey, selected), expand};
-      setItems(updateTree(itemsMap, items, node));
+    update: (node: TreeNode<T>): void => {
+      const updatedNode: TreeNode<T> = updateNode(node);
+      setItems(updateTree(itemsMap, items, updatedNode));
     }
   }
 }
